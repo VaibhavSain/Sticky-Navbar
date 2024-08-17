@@ -1,0 +1,74 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+.container {
+  background-color: aliceblue;
+  width: 100vw;
+  height: 100vh;
+}
+#container1 {
+  background-color: gainsboro;
+  width: 100vw;
+  height: 100vh;
+}
+#container2 {
+  background-color: blue;
+  width: 100vw;
+  height: 100vh;
+}
+#container3 {
+  background-color: red;
+  width: 100vw;
+  height: 100vh;
+}
+#container4 {
+  background-color: rgb(227, 227, 18);
+  width: 100vw;
+  height: 100vh;
+}
+.container .name {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: 300;
+  font-size: medium;
+  height: 50px;
+  margin-top: 5px;
+  color: black;
+}
+.container1 {
+  position: absolute;
+  top: 5px;
+  background-color: whitesmoke;
+  width: 100%;
+  height: 50px;
+  display: flex;
+}
+.container2 {
+  margin-left: 55px;
+  margin-right: 55px;
+}
+.link {
+  margin-left: 690px;
+  position: absolute;
+
+  top: 10px;
+}
+.link a {
+  margin-left: 30px;
+  font-family: "Times New Roman", Times, serif;
+  color: rgb(11, 10, 10);
+  text-decoration: none;
+  font-weight: bolder;
+  font-size: 22px;
+}
+.link a:hover {
+  border: black solid;
+  border-top: darkkhaki;
+  border-left: rebeccapurple;
+  border-right: blue;
+  transition: all step-start step-end;
+}
+
